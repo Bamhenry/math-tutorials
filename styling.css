@@ -22,7 +22,7 @@ h1 a{
 
 #searchBox {
     float: right;
-    background: linear-gradient(#cacbce, #a3a5a8);
+    background: linear-gradient(#ddd8d5, #a89c94);
     width: 400px;
     height: 50px;
     padding: 20px 20px 0 20px;
@@ -34,7 +34,7 @@ h1 a{
     width: 200px;
     padding: 5px;
     font-size: 15px;
-    color: #2DA8D8FF;
+    color: white;
     background: #2A2B2DFF url(images/search.png) right center no-repeat;
 }
 
@@ -49,4 +49,45 @@ h1 a{
 
 .clear{
     clear: both;
+}
+
+#menu {
+    height: 70px;
+    background: linear-gradient(#ffb3b6, #ff4f58);
+    padding: 7px 0;
+}
+
+ul{
+    list-style: none;
+}
+
+#menu ul li{
+    float: left;
+    padding: 0 20px;
+    height: 30px;
+    border-right: 1px solid #2A2B2DFF;
+}
+
+#menu ul li:last-child{
+    border-right: none;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    color: #2A2B2DFF;
+    line-height: 30px;
+    -webkit-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+    transition: font-size 0.3s ease;
+}
+
+#menu ul li a:hover, #menu ul li a.active{
+    font-size: 20px;
+    font-weight: bolder;
+    color: #57585c;
 }
